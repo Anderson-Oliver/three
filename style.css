@@ -5,3 +5,41 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(./img/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+    color: #fff;
+    width: 75px;
+    cursor: pointer;
+}
+
+.nav{
+    width: 85%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    color: lightgray;
+    padding: 0 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.nav ul li:hover{
+    transform: translateX(-10px) scale(1.2);
+    color: #fff;
+    transition: .4s;
+    cursor: pointer;
+}
